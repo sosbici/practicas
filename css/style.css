@@ -1,0 +1,99 @@
+@font-face {
+    	font-family: culebra;
+    	src: url("../fonts/Sneaksfood.ttf");
+}
+@font-face {
+        font-family: aderezo;
+        src: url("../fonts/gmdoodles.woff2");
+}
+@font-face {
+        font-family: brazil;
+        src: url("../fonts/brazilfood3.woff2");
+}
+.caja-contenedor {
+    	background-image: url('../img/espaguetis.jpg');
+    	background-size: cover;
+    	height: 300px;
+    	position: relative;
+    	border-radius: 10px;
+}
+.caja-texto {
+        background-color: rgba(0,0,0,.8);
+        position: absolute;
+        right: 20px; 
+        bottom: 20px; 
+        padding: 20px 20px;
+        width: 150px;
+        color: white;
+        border-radius: 10px;
+}  
+h1,a {
+    	font-family: culebra, arial ;
+   		font-size: 60px;
+   	 	text-align: center;
+    	color: darkorange;
+    	animation-name: cambiarColor;
+    	animation-duration: 2s;
+    	animation-duration: 4s;
+    	margin-bottom: 10px;
+    	text-shadow: 4px 7px 2px black;
+} 
+.centrado {
+		display: flex;
+		justify-content: center;
+}
+.derecha {
+  display: flex;
+  justify-content: end;
+}
+.izquierda {
+  display: flex;
+  justify-content: start;
+}
+
+  /* 	
+ 	 display: flex;
+	justify-content: center;
+	*/
+h2 {
+        font-family: brazil, arial ;
+        font-size: 30px;
+        text-align: center;
+        color: #4C4B50;
+        margin-bottom: 18px;
+}   
+@keyframes cambiarColor {
+        0% {color:#BE2302;}
+        50%{color:#F6A905}
+        100%{color:darkorange}
+}
+body {
+		color: #000;
+		background-color: #dcdcdc;
+}
+.left {
+   display: flex;
+   justify-content: left;
+}
+/* .derecha, li {
+        display: flex;
+        justify-content:right;
+}
+
+/*.subtitulo {
+         text-align: center;
+         font-size: 30px;
+         font-family: brazil;
+}
+  /*  .img {
+        border-radius: 10px;
+        margin-bottom: 40px;
+        display: block;
+        margin: 0px auto;
+} */
+
+/* .centrar{
+        text-align : center;
+}*/
+    
+    /* aca ingrese codigo para ensayar */

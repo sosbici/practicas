@@ -1,0 +1,83 @@
+h1 {
+  color: rgba(65, 220, 225, 0.969);
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium";
+  animation-name: cambiarColor;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  text-align: center;
+}
+
+@keyframes cambiarColor {
+  0% {
+    color: red;
+  }
+  50% {
+    color: orange;
+  }
+  100% {
+    color: yellow;
+  }
+}
+
+h2 {
+  color: green;
+}
+
+.tachados {
+  text-decoration: underline;
+}
+
+.resaltado {
+  background-color: yellow;
+}
+/* desactive para seguir haciendo la tabla, ejemplose de formato
+                width:100%; 
+                height:400px; 
+           position:relative;
+           a {
+	            text-decoration: none;
+	            color: #1883ba;
+            }          
+            h1{
+	            font-size: 32px;
+	            font-weight: normal;
+	            font-style: normal;
+	            margin-bottom: 18px;
+            }
+            h2{
+	            font-size: 18px;
+            }
+            #container {
+	            width: 865px;
+	            margin: 0px auto;
+            }
+            #header {
+	            padding: 20px;
+	            font-size: 36px;
+	            background-color: #000;
+	            color: #fff;
+            }            
+            #header span {
+	            color: #666;
+            }
+            #main_content {
+	            background-color: #fff;
+	            padding: 60px 20px 20px;
+            }
+            #footer p {
+	            margin: 0;
+	            padding-top: 10px;
+	            padding-bottom: 50px;
+	            color: #333;
+	            font: 10px Arial, sans-serif;
+            }
+            */
+            /* SELECTORES
+             elemento aplica body  
+            .
+            id es unico, solo se tiene uno      #IDENTIFICADOR
+            class se aplica a muchos              .CLASE
+            Pseudo-clase               input:hover  
+            combinadores leer
+            */
